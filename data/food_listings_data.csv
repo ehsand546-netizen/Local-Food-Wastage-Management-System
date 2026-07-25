@@ -1,0 +1,81 @@
+Food_ID,Food_Name,Quantity,Expiry_Date,Provider_ID,Provider_Type,Location,Food_Type,Meal_Type
+1,Noodles,16,2026-06-07,5,Grocery Store,Lucknow,Vegetarian,Breakfast
+2,Fruits,92,2026-06-11,5,Grocery Store,Lucknow,Non-Vegetarian,Breakfast
+3,Idli Sambar,72,2026-06-03,13,Restaurant,Ahmedabad,Non-Vegetarian,Breakfast
+4,Cookies,39,2026-06-12,4,Restaurant,Delhi,Vegan,Dinner
+5,Cakes,25,2026-05-31,4,Restaurant,Delhi,Non-Vegetarian,Breakfast
+6,Fruits,69,2026-06-07,9,Bakery,Hyderabad,Vegetarian,Dinner
+7,Paneer Sabzi,24,2026-06-10,17,Grocery Store,Hyderabad,Non-Vegetarian,Lunch
+8,Pulao,5,2026-06-21,18,Grocery Store,Kolkata,Vegan,Dinner
+9,Sandwiches,51,2026-05-22,16,Catering Service,Delhi,Non-Vegetarian,Lunch
+10,Vegetable Curry,15,2026-05-29,2,Grocery Store,Delhi,Vegan,Snacks
+11,Cookies,21,2026-06-15,3,Catering Service,Lucknow,Vegetarian,Snacks
+12,Biryani,72,2026-05-27,18,Grocery Store,Kolkata,Vegan,Snacks
+13,Cookies,98,2026-06-20,7,Grocery Store,Lucknow,Vegan,Lunch
+14,Pasta,61,2026-06-03,10,Grocery Store,Pune,Vegan,Snacks
+15,Chapati,13,2026-05-29,4,Restaurant,Delhi,Non-Vegetarian,Breakfast
+16,Chapati,80,2026-06-08,19,Bakery,Pune,Vegetarian,Breakfast
+17,Dal,34,2026-06-13,3,Catering Service,Lucknow,Vegetarian,Breakfast
+18,Pulao,35,2026-05-24,11,Restaurant,Delhi,Non-Vegetarian,Snacks
+19,Bread,97,2026-06-08,7,Grocery Store,Lucknow,Vegan,Snacks
+20,Noodles,57,2026-06-16,8,Restaurant,Bangalore,Vegetarian,Breakfast
+21,Cakes,50,2026-06-12,4,Restaurant,Delhi,Non-Vegetarian,Snacks
+22,Dal,91,2026-06-18,15,Supermarket,Lucknow,Vegan,Breakfast
+23,Milk Packets,18,2026-06-03,2,Grocery Store,Delhi,Vegetarian,Lunch
+24,Idli Sambar,22,2026-06-08,7,Grocery Store,Lucknow,Non-Vegetarian,Lunch
+25,Chapati,14,2026-06-05,9,Bakery,Hyderabad,Non-Vegetarian,Breakfast
+26,Cookies,6,2026-06-11,2,Grocery Store,Delhi,Vegetarian,Lunch
+27,Noodles,66,2026-06-04,6,Catering Service,Jaipur,Vegetarian,Snacks
+28,Soup,5,2026-05-27,2,Grocery Store,Delhi,Non-Vegetarian,Dinner
+29,Cakes,94,2026-05-31,15,Supermarket,Lucknow,Vegan,Snacks
+30,Salad,32,2026-05-28,5,Grocery Store,Lucknow,Vegetarian,Breakfast
+31,Dal,79,2026-05-23,11,Restaurant,Delhi,Non-Vegetarian,Lunch
+32,Pulao,15,2026-06-21,2,Grocery Store,Delhi,Vegetarian,Breakfast
+33,Chapati,56,2026-05-24,20,Supermarket,Chennai,Vegetarian,Lunch
+34,Dal,84,2026-06-10,19,Bakery,Pune,Vegetarian,Snacks
+35,Pulao,45,2026-06-09,19,Bakery,Pune,Non-Vegetarian,Lunch
+36,Biryani,55,2026-05-29,11,Restaurant,Delhi,Vegetarian,Dinner
+37,Vegetable Curry,6,2026-06-01,15,Supermarket,Lucknow,Non-Vegetarian,Breakfast
+38,Paneer Sabzi,69,2026-06-08,3,Catering Service,Lucknow,Non-Vegetarian,Lunch
+39,Vegetable Curry,36,2026-06-19,12,Supermarket,Hyderabad,Non-Vegetarian,Dinner
+40,Cookies,95,2026-06-05,6,Catering Service,Jaipur,Non-Vegetarian,Breakfast
+41,Sandwiches,22,2026-05-31,18,Grocery Store,Kolkata,Non-Vegetarian,Breakfast
+42,Cookies,24,2026-06-14,4,Restaurant,Delhi,Non-Vegetarian,Dinner
+43,Milk Packets,31,2026-05-28,20,Supermarket,Chennai,Vegan,Dinner
+44,Biryani,11,2026-06-06,17,Grocery Store,Hyderabad,Vegetarian,Snacks
+45,Rice,47,2026-05-23,9,Bakery,Hyderabad,Vegetarian,Dinner
+46,Idli Sambar,75,2026-06-14,6,Catering Service,Jaipur,Vegan,Snacks
+47,Sandwiches,14,2026-05-22,18,Grocery Store,Kolkata,Vegan,Lunch
+48,Pasta,79,2026-05-23,18,Grocery Store,Kolkata,Vegan,Lunch
+49,Dal,44,2026-05-26,14,Restaurant,Delhi,Non-Vegetarian,Breakfast
+50,Chapati,90,2026-05-28,12,Supermarket,Hyderabad,Vegetarian,Dinner
+51,Cakes,84,2026-06-19,18,Grocery Store,Kolkata,Vegan,Lunch
+52,Fruits,27,2026-06-18,8,Restaurant,Bangalore,Non-Vegetarian,Breakfast
+53,Milk Packets,57,2026-06-14,6,Catering Service,Jaipur,Vegan,Lunch
+54,Sandwiches,53,2026-05-27,9,Bakery,Hyderabad,Vegetarian,Snacks
+55,Idli Sambar,49,2026-05-28,8,Restaurant,Bangalore,Non-Vegetarian,Lunch
+56,Paneer Sabzi,56,2026-05-22,8,Restaurant,Bangalore,Non-Vegetarian,Dinner
+57,Biryani,49,2026-06-21,3,Catering Service,Lucknow,Vegan,Snacks
+58,Rice,19,2026-06-01,18,Grocery Store,Kolkata,Non-Vegetarian,Lunch
+59,Biryani,9,2026-06-21,19,Bakery,Pune,Vegetarian,Snacks
+60,Milk Packets,60,2026-06-14,12,Supermarket,Hyderabad,Vegan,Breakfast
+61,Paneer Sabzi,37,2026-06-19,13,Restaurant,Ahmedabad,Vegetarian,Snacks
+62,Cookies,92,2026-06-07,1,Restaurant,Hyderabad,Vegan,Lunch
+63,Vegetable Curry,90,2026-06-04,12,Supermarket,Hyderabad,Non-Vegetarian,Dinner
+64,Salad,69,2026-06-14,4,Restaurant,Delhi,Non-Vegetarian,Snacks
+65,Salad,75,2026-06-03,11,Restaurant,Delhi,Vegetarian,Lunch
+66,Soup,91,2026-06-12,14,Restaurant,Delhi,Vegan,Lunch
+67,Salad,56,2026-06-09,20,Supermarket,Chennai,Vegan,Breakfast
+68,Paneer Sabzi,60,2026-05-31,10,Grocery Store,Pune,Vegan,Dinner
+69,Idli Sambar,91,2026-06-05,15,Supermarket,Lucknow,Vegetarian,Snacks
+70,Vegetable Curry,41,2026-06-12,6,Catering Service,Jaipur,Vegan,Dinner
+71,Chapati,91,2026-06-17,3,Catering Service,Lucknow,Non-Vegetarian,Lunch
+72,Rice,10,2026-05-26,7,Grocery Store,Lucknow,Vegetarian,Snacks
+73,Vegetable Curry,63,2026-06-18,20,Supermarket,Chennai,Non-Vegetarian,Lunch
+74,Soup,36,2026-06-06,13,Restaurant,Ahmedabad,Vegetarian,Breakfast
+75,Cakes,33,2026-06-15,4,Restaurant,Delhi,Vegetarian,Snacks
+76,Chapati,20,2026-06-08,2,Grocery Store,Delhi,Non-Vegetarian,Lunch
+77,Pulao,76,2026-06-12,15,Supermarket,Lucknow,Vegan,Dinner
+78,Pulao,59,2026-06-10,15,Supermarket,Lucknow,Vegan,Snacks
+79,Noodles,62,2026-06-14,6,Catering Service,Jaipur,Non-Vegetarian,Lunch
+80,Pulao,67,2026-06-15,9,Bakery,Hyderabad,Vegan,Lunch
