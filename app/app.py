@@ -9,9 +9,9 @@ import sqlite3
 import plotly.express as px
 import os
 
-# ---------------------------------------------------------
-# Database connection helper
-# ---------------------------------------------------------
+
+
+
 db_path = os.path.join("database", "food_wastage.db")
 
 def get_connection():
@@ -31,20 +31,20 @@ def run_action(query, params=None):
     conn.commit()
     conn.close()
 
-# ---------------------------------------------------------
+
 # Page config
-# ---------------------------------------------------------
+
 st.set_page_config(page_title="Food Wastage Management", layout="wide")
 st.title("🍲 Local Food Wastage Management System")
 
-# ---------------------------------------------------------
+
 # Sidebar navigation
-# ---------------------------------------------------------
+
 page = st.sidebar.radio("Navigate", ["Home & Filters", "SQL Queries & Insights", "Manage Listings (CRUD)", "Charts"])
 
-# ===========================================================
+
 # PAGE 1: Home & Filters
-# ===========================================================
+
 if page == "Home & Filters":
     st.header("Browse Food Listings")
 
@@ -86,9 +86,9 @@ if page == "Home & Filters":
     st.write(f"**{len(results)} food listings found**")
     st.dataframe(results, use_container_width=True)
 
-# ===========================================================
+
 # PAGE 2: SQL Queries & Insights
-# ===========================================================
+
 elif page == "SQL Queries & Insights":
     st.header("SQL Queries & Insights")
 
@@ -161,9 +161,9 @@ elif page == "SQL Queries & Insights":
     result_df = run_query(query_options[selected])
     st.dataframe(result_df, use_container_width=True)
 
-# ===========================================================
+
 # PAGE 3: CRUD Operations
-# ===========================================================
+
 elif page == "Manage Listings (CRUD)":
     st.header("Manage Food Listings")
 
@@ -190,9 +190,12 @@ elif page == "Manage Listings (CRUD)":
                 provider_id = int(provider_choice.split(" - ")[0])
                 provider_row = providers_df[providers_df["Provider_ID"] == provider_id].iloc[0]
                 # Get next Food_ID
-                max_id = run_query("SELECT MAX(Food_ID) AS max_id FROM food_listings")["max_id"][0]
-                new_id = (max_id or 0) + 1
-
+                max_id_result = run_query("SELECT MAX(Food_ID) AS max_id FROM food_listings")
+                max_id_value = max_id_result["max_id"].iloc[0]
+                if max_id_value is None or pd.isna(max_id_value):
+                    new_id = 1
+                else:
+                    new_id = int(max_id_value) + 1
                 run_action("""
                     INSERT INTO food_listings
                     (Food_ID, Food_Name, Quantity, Expiry_Date, Provider_ID, Provider_Type, Location, Food_Type, Meal_Type)
